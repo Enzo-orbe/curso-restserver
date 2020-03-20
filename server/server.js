@@ -13,7 +13,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-app.use(require('./routes/usuarios.js'));
+app.use(require('./routes/index.js'));
+
+
 
 mongoose.connect('mongodb://localhost:27017/cafe', { useNewUrlParser: true, useCreateIndex: true },
     (err, res) => {
