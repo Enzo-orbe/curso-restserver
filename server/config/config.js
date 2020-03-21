@@ -14,3 +14,8 @@ process.env.PORT = process.env.PORT || 3000;
 
 
 //Omongodb+srv://strider1:<password>@cluster0-lvnch.mongodb.net/test
+
+
+///clien id
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || '204169775080-prrbludmjs8eels3ulgdvf7gok9usq24.apps.googleusercontent.com';
